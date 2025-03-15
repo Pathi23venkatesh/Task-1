@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Central Park</name>
+      <description>A famous park in New York City</description>
+      <Point>
+        <coordinates>-73.9855, 40.7829, 0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hudson River Path</name>
+      <description>A walking path along the Hudson River</description>
+      <LineString>
+        <coordinates>
+          -74.005, 40.745, 0 
+          -74.01, 40.73, 0 
+          -74.005, 40.715, 0 
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Manhattan</name>
+      <description>The borough of Manhattan</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -74.01, 40.75, 0 
+              -73.95, 40.75, 0 
+              -73.95, 40.70, 0 
+              -74.01, 40.70, 0 
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
